@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>財報分析 on 金融筆記</title>
-    <link>https://github.com/tags/%E8%B2%A1%E5%A0%B1%E5%88%86%E6%9E%90/</link>
+    <link>https://jeffliou85.github.io/tags/%E8%B2%A1%E5%A0%B1%E5%88%86%E6%9E%90/</link>
     <description>Recent content in 財報分析 on 金融筆記</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 30 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://github.com/tags/%E8%B2%A1%E5%A0%B1%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jeffliou85.github.io/tags/%E8%B2%A1%E5%A0%B1%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>財報分析架構</title>
-      <link>https://github.com/2025/03/30/financial-statement-analysis/</link>
+      <link>https://jeffliou85.github.io/2025/03/30/financial-statement-analysis/</link>
       <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://github.com/2025/03/30/financial-statement-analysis/</guid>
+      <guid>https://jeffliou85.github.io/2025/03/30/financial-statement-analysis/</guid>
       <description>&lt;h1 id=&#34;財報的基本架構介紹&#34;&gt;財報的基本架構介紹&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;財務報表（Financial Statements）是企業財務狀況與經營成果的重要呈現工具，主要由&lt;strong&gt;資產負債表&lt;/strong&gt;、&lt;strong&gt;損益表&lt;/strong&gt;、&lt;strong&gt;現金流量表&lt;/strong&gt;以及&lt;strong&gt;權益變動表&lt;/strong&gt;等部分組成。以下將詳細介紹這些基本構成部分及其功能。&lt;/p&gt;</description>
     </item>
   </channel>
