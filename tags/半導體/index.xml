@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>半導體 on 金融筆記</title>
+    <link>http://localhost:1313/tags/%E5%8D%8A%E5%B0%8E%E9%AB%94/</link>
+    <description>Recent content in 半導體 on 金融筆記</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E5%8D%8A%E5%B0%8E%E9%AB%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>半導體產業資訊</title>
+      <link>http://localhost:1313/2025/03/30/article/industry-info-semiconductor/</link>
+      <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2025/03/30/article/industry-info-semiconductor/</guid>
+      <description>&lt;h1 id=&#34;半導體產業資訊&#34;&gt;半導體產業資訊&lt;/h1&gt;&#xA;&lt;h4 id=&#34;上游ic設計&#34;&gt;上游（IC設計）&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;IP設計&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;設計IC的智慧財產核心，確保設計效能。&lt;/li&gt;&#xA;&lt;li&gt;IP開發流程包含IP設計與IP驗證。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;IC設計&lt;/strong&gt;：使用CAD工具將客戶需求轉化為晶片電路。&#xA;&lt;ul&gt;&#xA;&lt;li&gt;IC可簡單區分為類比IC與數位IC兩大類。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;市場概況&lt;/strong&gt;：&#xA;&lt;ul&gt;&#xA;&lt;li&gt;全球IC設計產業以 &lt;strong&gt;美國、台灣、中國&lt;/strong&gt; 為主要競爭者。&lt;/li&gt;&#xA;&lt;li&gt;中國自2014年起積極扶植半導體產業，推動供應鏈自主化。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;中游ic製造&#34;&gt;中游（IC製造）&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;IC製造的流程是將晶圓廠所做好的晶圓，以光罩印上電路基本圖樣，再以氧化、擴散、CVD、蝕刻、離子植入等方法，將電路及電路上的元件，在晶圓上製作出來。由於IC上的電路設計是層狀結構，因此還要經過多次的光罩投入、圖形製作、形成線路與元件等重複程序，才能製作出完整的積體電路。台灣IC製造業者在晶圓龍頭台積電先進製程技術上的發展，仍領先群雄。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;主要製程&lt;/strong&gt;：&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;光罩製程&lt;/strong&gt;：使用光學技術將電路圖樣轉印至晶圓。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;化學蝕刻&lt;/strong&gt;：移除不必要的材料，形成所需的電路結構。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;離子植入&lt;/strong&gt;：調整半導體材料的電性特質，提升性能。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;市場競爭&lt;/strong&gt;：&#xA;&lt;ul&gt;&#xA;&lt;li&gt;台灣晶圓代工企業 &lt;strong&gt;台積電&lt;/strong&gt; 領先全球，擁有最先進製程技術。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;下游封裝測試&#34;&gt;下游（封裝測試）&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;封裝測試主要負責晶圓的切割、封裝及最終測試：&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;IC封裝&lt;/strong&gt;：&#xA;&lt;ul&gt;&#xA;&lt;li&gt;透過塑膠、陶瓷或金屬封裝晶粒，提升耐用性及散熱效果。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;IC測試&lt;/strong&gt;：&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;晶圓測試&lt;/strong&gt;（前段測試）：檢查晶片的電性是否正常。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;成品測試&lt;/strong&gt;（後段測試）：確保IC功能與散熱符合標準。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>矽光子產業資訊</title>
+      <link>http://localhost:1313/2025/03/30/article/industry-info-silicon-photonics/</link>
+      <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2025/03/30/article/industry-info-silicon-photonics/</guid>
+      <description>&lt;h3 id=&#34;矽光子產業資訊&#34;&gt;矽光子產業資訊&lt;/h3&gt;&#xA;&lt;p&gt;矽光子（Silicon Photonics）是一項結合光學與半導體技術的創新科技，旨在利用光訊號代替電訊號進行數據傳輸。以下是矽光子產業的詳細介紹，涵蓋技術背景、應用領域、產業現狀及未來發展。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 金融筆記</title>
+    <link>https://github.com/post/</link>
+    <description>Recent content in Posts on 金融筆記</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://github.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>市值因子研究</title>
+      <link>https://github.com/2025/05/01/article/market-value-factor-analysis/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://github.com/2025/05/01/article/market-value-factor-analysis/</guid>
+      <description>&lt;h2 id=&#34;各年度市值分組10日報酬率&#34;&gt;各年度市值分組10日報酬率&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;市值由小到大分十組，計算每組平均報酬率減去不分區報酬率得分組超額報酬率。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&#xA;  &lt;img src=&#34;https://github.com/img/market-value-analysis/%e5%88%86%e5%8d%80%e8%b6%85%e9%a1%8d%e5%a0%b1%e9%85%ac%e7%8e%8710%e6%97%a5_by_year.png&#34; alt=&#34;&#34;&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;各年度市值分組20日報酬率&#34;&gt;各年度市值分組20日報酬率&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;市值由小到大分十組，計算每組平均報酬率減去不分區報酬率得分組超額報酬率。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>財報分析架構</title>
+      <link>https://github.com/2025/03/30/article/financial-statement-analysis/</link>
+      <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://github.com/2025/03/30/article/financial-statement-analysis/</guid>
+      <description>&lt;p&gt;財務報表（Financial Statements）是企業財務狀況與經營成果的重要呈現工具，主要由&lt;strong&gt;資產負債表&lt;/strong&gt;、&lt;strong&gt;損益表&lt;/strong&gt;、&lt;strong&gt;現金流量表&lt;/strong&gt;以及&lt;strong&gt;權益變動表&lt;/strong&gt;等部分組成。以下將詳細介紹這些基本構成部分及其功能。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
