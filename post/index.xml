@@ -6,21 +6,28 @@
     <description>Recent content in Posts on 金融研究筆記</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jeffliou85.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>券商買賣家數比因子研究</title>
+      <link>https://jeffliou85.github.io/2025/07/01/buyers-sellers-ratio-factor-analysis/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://jeffliou85.github.io/2025/07/01/buyers-sellers-ratio-factor-analysis/</guid>
+      <description>&lt;h3 id=&#34;券商買賣家數比因子簡介&#34;&gt;券商買賣家數比因子簡介&lt;/h3&gt;&#xA;&lt;p&gt;券商買賣家數比衡量某檔證券在特定期間內，買進或賣出券商的失衡比例，用以判斷籌碼是否流向少數券商。&lt;/p&gt;&#xA;&lt;h3 id=&#34;各年度券商買賣家數比分組10日報酬率&#34;&gt;各年度券商買賣家數比分組10日報酬率&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;以單日賣家數佔買家數與賣家數總和定義券商買賣比因子，由小到大分十組，計算每組平均報酬率減去總平均報酬率得分組超額報酬率。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>動能因子研究</title>
       <link>https://jeffliou85.github.io/2025/06/01/momentum-factor-analysis/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://jeffliou85.github.io/2025/06/01/momentum-factor-analysis/</guid>
-      <description>&lt;h2 id=&#34;各年度動能分組10日報酬率&#34;&gt;各年度動能分組10日報酬率&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;動能由小到大分十組，計算每組平均報酬率減去不分區報酬率得分組超額報酬率。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&#xA;  &lt;img src=&#34;https://jeffliou85.github.io/img/momentum-factor-analysis/%e5%88%86%e7%b5%8410%e6%97%a5%e8%b6%85%e9%a1%8d%e5%a0%b1%e9%85%ac%e7%8e%87_by_year.png&#34; alt=&#34;&#34;&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;各年度動能分組20日報酬率&#34;&gt;各年度動能分組20日報酬率&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;動能由小到大分十組，計算每組平均報酬率減去不分區報酬率得分組超額報酬率。&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;動能因子簡介&#34;&gt;動能因子簡介&lt;/h3&gt;&#xA;&lt;p&gt;動能因子是量化投資中的價格動態指標，根據「趨勢延續」的概念判斷資產未來走勢。研究顯示，近期表現較好的股票在未來一段時間內仍可能持續上漲，稱為「正向動能」。動能因子常以股票的過去3至12個月報酬計算，廣泛應用於量化選股與策略設計，與市值、估值等因子共同構成多因子模型，有助於提升預測力與投資組合效能。&lt;/p&gt;</description>
     </item>
     <item>
       <title>市值因子研究</title>
       <link>https://jeffliou85.github.io/2025/05/01/market-value-factor-analysis/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
       <guid>https://jeffliou85.github.io/2025/05/01/market-value-factor-analysis/</guid>
-      <description>&lt;h2 id=&#34;各年度市值分組10日報酬率&#34;&gt;各年度市值分組10日報酬率&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;市值由小到大分十組，計算每組平均報酬率減去不分區報酬率得分組超額報酬率。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&#xA;  &lt;img src=&#34;https://jeffliou85.github.io/img/market-value-factor-analysis/%e5%88%86%e7%b5%8410%e6%97%a5%e8%b6%85%e9%a1%8d%e5%a0%b1%e9%85%ac%e7%8e%87_by_year.png&#34; alt=&#34;&#34;&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;各年度市值分組20日報酬率&#34;&gt;各年度市值分組20日報酬率&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;市值由小到大分十組，計算每組平均報酬率減去不分區報酬率得分組超額報酬率。&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;市值因子簡介&#34;&gt;市值因子簡介&lt;/h3&gt;&#xA;&lt;p&gt;市值因子是量化投資中常用的基本面因子之一，以公司市值衡量企業規模。根據「小型股效應」理論，小型市值公司在部分時期可能產生超額報酬，但也伴隨較高風險與波動性。市值影響機構投資者偏好、資金配置與交易流動性。在多因子模型中，市值常與估值、動能、品質等因子合併使用，用以預測股票報酬並優化投資組合結構。&lt;/p&gt;</description>
     </item>
     <item>
       <title>財報分析架構</title>
