@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>雙因子研究 on 金融研究筆記</title>
+    <link>https://jeffliou85.github.io/tags/%E9%9B%99%E5%9B%A0%E5%AD%90%E7%A0%94%E7%A9%B6/</link>
+    <description>Recent content in 雙因子研究 on 金融研究筆記</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jeffliou85.github.io/tags/%E9%9B%99%E5%9B%A0%E5%AD%90%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>市值與60日動能的雙因子研究</title>
+      <link>https://jeffliou85.github.io/2025/08/01/market-value-momentum-dual-factors-analysis/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://jeffliou85.github.io/2025/08/01/market-value-momentum-dual-factors-analysis/</guid>
+      <description>&lt;h3 id=&#34;各年度市值與60日動能分組10日報酬率&#34;&gt;各年度市值與60日動能分組10日報酬率&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;市值由小到大分十組，計算每組平均報酬率減去總平均報酬率得分組超額報酬率。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&#xA;  &lt;img src=&#34;https://jeffliou85.github.io/img/market-value-vs-momentum-dual-factors-analysis/%e5%88%86%e7%b5%8410%e6%97%a5%e8%b6%85%e9%a1%8d%e5%a0%b1%e9%85%ac%e7%8e%87_by_year.png&#34; alt=&#34;&#34;&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;各年度市值與60日動能分組20日報酬率&#34;&gt;各年度市值與60日動能分組20日報酬率&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;市值由小到大分十組，計算每組平均報酬率減去總平均報酬率得分組超額報酬率。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

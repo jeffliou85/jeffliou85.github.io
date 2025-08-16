@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>金融研究筆記</title>
-    <link>https://jeffliou85.github.io/</link>
-    <description>Recent content on 金融研究筆記</description>
+    <title>單因子研究 on 金融研究筆記</title>
+    <link>https://jeffliou85.github.io/tags/%E5%96%AE%E5%9B%A0%E5%AD%90%E7%A0%94%E7%A9%B6/</link>
+    <description>Recent content in 單因子研究 on 金融研究筆記</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jeffliou85.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jeffliou85.github.io/tags/%E5%96%AE%E5%9B%A0%E5%AD%90%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>120日內第一次創高因子研究</title>
       <link>https://jeffliou85.github.io/2025/08/01/first-new-high-in-120-days-factor-analysis/</link>
@@ -30,13 +30,6 @@
       <description>&lt;h3 id=&#34;創高因子簡介&#34;&gt;創高因子簡介&lt;/h3&gt;&#xA;&lt;p&gt;創高因子是量化投資中衡量資產創新高行為的指標，根據「價格突破」的概念捕捉市場情緒與潛在趨勢。研究指出，頻繁創下新高的股票往往受到市場青睞，具備持續上漲的潛力，反映投資人對其基本面或成長性的高度信心。創高因子常以資產在過去一定期間（如52週）創新高的次數或距離歷史高點的相對位置計算，廣泛應用於動能強化策略與技術面選股。與動能、市值、品質等因子結合時，創高因子有助於提升策略的趨勢辨識能力與風險調整後報酬表現。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>市值與60日動能的雙因子研究</title>
-      <link>https://jeffliou85.github.io/2025/08/01/market-value-momentum-dual-factors-analysis/</link>
-      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://jeffliou85.github.io/2025/08/01/market-value-momentum-dual-factors-analysis/</guid>
-      <description>&lt;h3 id=&#34;各年度市值與60日動能分組10日報酬率&#34;&gt;各年度市值與60日動能分組10日報酬率&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;市值由小到大分十組，計算每組平均報酬率減去總平均報酬率得分組超額報酬率。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&#xA;  &lt;img src=&#34;https://jeffliou85.github.io/img/market-value-vs-momentum-dual-factors-analysis/%e5%88%86%e7%b5%8410%e6%97%a5%e8%b6%85%e9%a1%8d%e5%a0%b1%e9%85%ac%e7%8e%87_by_year.png&#34; alt=&#34;&#34;&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;各年度市值與60日動能分組20日報酬率&#34;&gt;各年度市值與60日動能分組20日報酬率&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;市值由小到大分十組，計算每組平均報酬率減去總平均報酬率得分組超額報酬率。&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>券商買賣家數比研究</title>
       <link>https://jeffliou85.github.io/2025/07/01/buyers-sellers-ratio-factor-analysis/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
@@ -56,41 +49,6 @@
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
       <guid>https://jeffliou85.github.io/2025/05/01/market-value-factor-analysis/</guid>
       <description>&lt;h3 id=&#34;市值因子簡介&#34;&gt;市值因子簡介&lt;/h3&gt;&#xA;&lt;p&gt;市值因子是量化投資中常用的基本面因子之一，以公司市值衡量企業規模。根據「小型股效應」理論，小型市值公司在部分時期可能產生超額報酬，但也伴隨較高風險與波動性。市值影響機構投資者偏好、資金配置與交易流動性。在多因子模型中，市值常與估值、動能、品質等因子合併使用，用以預測股票報酬並優化投資組合結構。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>財報分析架構</title>
-      <link>https://jeffliou85.github.io/2025/03/30/financial-statement-analysis/</link>
-      <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://jeffliou85.github.io/2025/03/30/financial-statement-analysis/</guid>
-      <description>&lt;h1 id=&#34;財報的基本架構介紹&#34;&gt;財報的基本架構介紹&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;財務報表（Financial Statements）是企業財務狀況與經營成果的重要呈現工具，主要由&lt;strong&gt;資產負債表&lt;/strong&gt;、&lt;strong&gt;損益表&lt;/strong&gt;、&lt;strong&gt;現金流量表&lt;/strong&gt;以及&lt;strong&gt;權益變動表&lt;/strong&gt;等部分組成。以下將詳細介紹這些基本構成部分及其功能。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://jeffliou85.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jeffliou85.github.io/about/</guid>
-      <description>&lt;h3 id=&#34;about-me&#34;&gt;About Me&lt;/h3&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;O ~ O&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://jeffliou85.github.io/owo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jeffliou85.github.io/owo/</guid>
-      <description>&lt;p&gt;Nothing here ~ owo&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://jeffliou85.github.io/search/placeholder/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jeffliou85.github.io/search/placeholder/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>文章年份</title>
-      <link>https://jeffliou85.github.io/archive/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jeffliou85.github.io/archive/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
