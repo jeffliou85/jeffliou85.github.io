@@ -34,7 +34,7 @@
       <link>https://jeffliou85.github.io/2025/08/01/market-value-momentum-dual-factors-analysis/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://jeffliou85.github.io/2025/08/01/market-value-momentum-dual-factors-analysis/</guid>
-      <description>&lt;h3 id=&#34;各年度市值與60日動能分組10日報酬率&#34;&gt;各年度市值與60日動能分組10日報酬率&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;市值由小到大分十組，計算每組平均報酬率減去總平均報酬率得分組超額報酬率。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&#xA;  &lt;img src=&#34;https://jeffliou85.github.io/img/market-value-vs-momentum-dual-factors-analysis/%e5%88%86%e7%b5%8410%e6%97%a5%e8%b6%85%e9%a1%8d%e5%a0%b1%e9%85%ac%e7%8e%87_by_year.png&#34; alt=&#34;&#34;&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;各年度市值與60日動能分組20日報酬率&#34;&gt;各年度市值與60日動能分組20日報酬率&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;市值由小到大分十組，計算每組平均報酬率減去總平均報酬率得分組超額報酬率。&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;各年度市值與60日動能分組10日報酬率&#34;&gt;各年度市值與60日動能分組10日報酬率&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;動能因子以近 60 個交易日累積報酬率定義，依數值由小至大分五組；市值亦由小至大分五組。計算各交叉分組平均報酬率，再扣除全體樣本平均報酬率，以得出各分組之超額報酬表現。&lt;/p&gt;</description>
     </item>
     <item>
       <title>券商買賣家數比研究</title>
@@ -42,6 +42,41 @@
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://jeffliou85.github.io/2025/07/01/buyers-sellers-ratio-factor-analysis/</guid>
       <description>&lt;h3 id=&#34;券商買賣家數比簡介&#34;&gt;券商買賣家數比簡介&lt;/h3&gt;&#xA;&lt;p&gt;券商買賣家數比衡量某檔證券在特定期間內，買進或賣出券商的失衡比例，用以判斷籌碼是否流向少數券商。&lt;/p&gt;&#xA;&lt;h3 id=&#34;各年度券商買賣家數比分組10日報酬率&#34;&gt;各年度券商買賣家數比分組10日報酬率&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;以單日賣家數佔買家數與賣家數總和定義券商買賣比，由小到大分十組，計算每組平均報酬率減去總平均報酬率得分組超額報酬率。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>120日均量倍數因子研究</title>
+      <link>https://jeffliou85.github.io/2025/06/15/120-days-volume-mvg-ratio-factor-analysis/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://jeffliou85.github.io/2025/06/15/120-days-volume-mvg-ratio-factor-analysis/</guid>
+      <description>&lt;h3 id=&#34;均量倍數因子簡介&#34;&gt;均量倍數因子簡介&lt;/h3&gt;&#xA;&lt;p&gt;???。&lt;/p&gt;&#xA;&lt;h3 id=&#34;各年度均量倍數分組10日報酬率&#34;&gt;各年度均量倍數分組10日報酬率&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;以每日成交金額對近120個交易日平均成交金額比率定義均量倍數因子，由小到大分十組，計算每組平均報酬率減去總平均報酬率得分組超額報酬率。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&#xA;  &lt;img src=&#34;https://jeffliou85.github.io/img/120-days-volume-mvg-ratio-factor-analysis/%e5%88%86%e7%b5%8410%e6%97%a5%e8%b6%85%e9%a1%8d%e5%a0%b1%e9%85%ac%e7%8e%87_by_year.png&#34; alt=&#34;&#34;&gt;&#xA;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20日均量倍數因子研究</title>
+      <link>https://jeffliou85.github.io/2025/06/15/20-days-volume-mvg-ratio-factor-analysis/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://jeffliou85.github.io/2025/06/15/20-days-volume-mvg-ratio-factor-analysis/</guid>
+      <description>&lt;h3 id=&#34;均量倍數因子簡介&#34;&gt;均量倍數因子簡介&lt;/h3&gt;&#xA;&lt;p&gt;???。&lt;/p&gt;&#xA;&lt;h3 id=&#34;各年度均量倍數分組10日報酬率&#34;&gt;各年度均量倍數分組10日報酬率&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;以每日成交金額對近20個交易日平均成交金額比率定義均量倍數因子，由小到大分十組，計算每組平均報酬率減去總平均報酬率得分組超額報酬率。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&#xA;  &lt;img src=&#34;https://jeffliou85.github.io/img/20-days-volume-mvg-ratio-factor-analysis/%e5%88%86%e7%b5%8410%e6%97%a5%e8%b6%85%e9%a1%8d%e5%a0%b1%e9%85%ac%e7%8e%87_by_year.png&#34; alt=&#34;&#34;&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;各年度均量倍數分組20日報酬率&#34;&gt;各年度均量倍數分組20日報酬率&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;以每日成交金額對近20個交易日平均成交金額比率定義均量倍數因子，由小到大分十組，計算每組平均報酬率減去總平均報酬率得分組超額報酬率。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>60日均量倍數因子研究</title>
+      <link>https://jeffliou85.github.io/2025/06/15/60-days-volume-mvg-ratio-factor-analysis/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://jeffliou85.github.io/2025/06/15/60-days-volume-mvg-ratio-factor-analysis/</guid>
+      <description>&lt;h3 id=&#34;均量倍數因子簡介&#34;&gt;均量倍數因子簡介&lt;/h3&gt;&#xA;&lt;p&gt;???。&lt;/p&gt;&#xA;&lt;h3 id=&#34;各年度均量倍數分組10日報酬率&#34;&gt;各年度均量倍數分組10日報酬率&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;以每日成交金額對近60個交易日平均成交金額比率定義均量倍數因子，由小到大分十組，計算每組平均報酬率減去總平均報酬率得分組超額報酬率。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&#xA;  &lt;img src=&#34;https://jeffliou85.github.io/img/60-days-volume-mvg-ratio-factor-analysis/%e5%88%86%e7%b5%8410%e6%97%a5%e8%b6%85%e9%a1%8d%e5%a0%b1%e9%85%ac%e7%8e%87_by_year.png&#34; alt=&#34;&#34;&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;各年度均量倍數分組20日報酬率&#34;&gt;各年度均量倍數分組20日報酬率&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;以每日成交金額對近60個交易日平均成交金額比率定義均量倍數因子，由小到大分十組，計算每組平均報酬率減去總平均報酬率得分組超額報酬率。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>120日動能因子研究</title>
+      <link>https://jeffliou85.github.io/2025/06/01/120-days-momentum-factor-analysis/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://jeffliou85.github.io/2025/06/01/120-days-momentum-factor-analysis/</guid>
+      <description>&lt;h3 id=&#34;動能因子簡介&#34;&gt;動能因子簡介&lt;/h3&gt;&#xA;&lt;p&gt;動能因子是量化投資中的價格動態指標，根據「趨勢延續」的概念判斷資產未來走勢。研究顯示，近期表現較好的股票在未來一段時間內仍可能持續上漲，稱為「正向動能」。動能因子常以股票的過去3至12個月報酬計算，廣泛應用於量化選股與策略設計，與市值、估值等因子共同構成多因子模型，有助於提升預測力與投資組合效能。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20日動能因子研究</title>
+      <link>https://jeffliou85.github.io/2025/06/01/20-days-momentum-factor-analysis/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://jeffliou85.github.io/2025/06/01/20-days-momentum-factor-analysis/</guid>
+      <description>&lt;h3 id=&#34;動能因子簡介&#34;&gt;動能因子簡介&lt;/h3&gt;&#xA;&lt;p&gt;動能因子是量化投資中的價格動態指標，根據「趨勢延續」的概念判斷資產未來走勢。研究顯示，近期表現較好的股票在未來一段時間內仍可能持續上漲，稱為「正向動能」。動能因子常以股票的過去3至12個月報酬計算，廣泛應用於量化選股與策略設計，與市值、估值等因子共同構成多因子模型，有助於提升預測力與投資組合效能。&lt;/p&gt;</description>
     </item>
     <item>
       <title>60日動能因子研究</title>
