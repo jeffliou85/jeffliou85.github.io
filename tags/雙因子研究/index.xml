@@ -6,13 +6,48 @@
     <description>Recent content in 雙因子研究 on 金融研究筆記</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jeffliou85.github.io/tags/%E9%9B%99%E5%9B%A0%E5%AD%90%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>市值與60日動能的雙因子研究</title>
-      <link>https://jeffliou85.github.io/2025/08/01/market-value-momentum-dual-factors-analysis/</link>
+      <title>120日動能與120日均量倍數的雙因子研究</title>
+      <link>https://jeffliou85.github.io/2025/08/15/120-days-momentum-vs-120-days-volume-mvg-ratio-dual-factors-analysis/</link>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://jeffliou85.github.io/2025/08/15/120-days-momentum-vs-120-days-volume-mvg-ratio-dual-factors-analysis/</guid>
+      <description>&lt;h3 id=&#34;各年度120日動能與120日均量倍數分組10日報酬率&#34;&gt;各年度120日動能與120日均量倍數分組10日報酬率&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;動能因子以近 120 個交易日累積報酬率定義，依數值由小至大分五組；均量倍數亦由小至大分五組。計算各交叉分組平均報酬率，再扣除全體樣本平均報酬率，以得出各分組之超額報酬表現。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20日動能與20日均量倍數的雙因子研究</title>
+      <link>https://jeffliou85.github.io/2025/08/15/20-days-momentum-vs-20-days-volume-mvg-ratio-dual-factors-analysis/</link>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://jeffliou85.github.io/2025/08/15/20-days-momentum-vs-20-days-volume-mvg-ratio-dual-factors-analysis/</guid>
+      <description>&lt;h3 id=&#34;各年度20日動能與20日均量倍數分組10日報酬率&#34;&gt;各年度20日動能與20日均量倍數分組10日報酬率&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;動能因子以近 20 個交易日累積報酬率定義，依數值由小至大分五組；均量倍數亦由小至大分五組。計算各交叉分組平均報酬率，再扣除全體樣本平均報酬率，以得出各分組之超額報酬表現。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>60日動能與60日均量倍數的雙因子研究</title>
+      <link>https://jeffliou85.github.io/2025/08/15/60-days-momentum-vs-60-days-volume-mvg-ratio-dual-factors-analysis/</link>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://jeffliou85.github.io/2025/08/15/60-days-momentum-vs-60-days-volume-mvg-ratio-dual-factors-analysis/</guid>
+      <description>&lt;h3 id=&#34;各年度60日動能與60日均量倍數分組10日報酬率&#34;&gt;各年度60日動能與60日均量倍數分組10日報酬率&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;動能因子以近 60 個交易日累積報酬率定義，依數值由小至大分五組；均量倍數亦由小至大分五組。計算各交叉分組平均報酬率，再扣除全體樣本平均報酬率，以得出各分組之超額報酬表現。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>市值與120日動能的雙因子研究</title>
+      <link>https://jeffliou85.github.io/2025/08/01/market-value-120-days-momentum-dual-factors-analysis/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://jeffliou85.github.io/2025/08/01/market-value-momentum-dual-factors-analysis/</guid>
+      <guid>https://jeffliou85.github.io/2025/08/01/market-value-120-days-momentum-dual-factors-analysis/</guid>
+      <description>&lt;h3 id=&#34;各年度市值與120日動能分組10日報酬率&#34;&gt;各年度市值與120日動能分組10日報酬率&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;動能因子以近 120 個交易日累積報酬率定義，依數值由小至大分五組；市值亦由小至大分五組。計算各交叉分組平均報酬率，再扣除全體樣本平均報酬率，以得出各分組之超額報酬表現。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>市值與20日動能的雙因子研究</title>
+      <link>https://jeffliou85.github.io/2025/08/01/market-value-20-days-momentum-dual-factors-analysis/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://jeffliou85.github.io/2025/08/01/market-value-20-days-momentum-dual-factors-analysis/</guid>
+      <description>&lt;h3 id=&#34;各年度市值與20日動能分組10日報酬率&#34;&gt;各年度市值與20日動能分組10日報酬率&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;動能因子以近 20 個交易日累積報酬率定義，依數值由小至大分五組；市值亦由小至大分五組。計算各交叉分組平均報酬率，再扣除全體樣本平均報酬率，以得出各分組之超額報酬表現。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>市值與60日動能的雙因子研究</title>
+      <link>https://jeffliou85.github.io/2025/08/01/market-value-20-days-momentum-dual-factors-analysis/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://jeffliou85.github.io/2025/08/01/market-value-20-days-momentum-dual-factors-analysis/</guid>
       <description>&lt;h3 id=&#34;各年度市值與60日動能分組10日報酬率&#34;&gt;各年度市值與60日動能分組10日報酬率&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;動能因子以近 60 個交易日累積報酬率定義，依數值由小至大分五組；市值亦由小至大分五組。計算各交叉分組平均報酬率，再扣除全體樣本平均報酬率，以得出各分組之超額報酬表現。&lt;/p&gt;</description>
     </item>
   </channel>
