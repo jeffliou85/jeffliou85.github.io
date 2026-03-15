@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>產業研究 on 金融研究筆記</title>
+    <link>https://jeffliou85.github.io/tags/%E7%94%A2%E6%A5%AD%E7%A0%94%E7%A9%B6/</link>
+    <description>Recent content in 產業研究 on 金融研究筆記</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jeffliou85.github.io/tags/%E7%94%A2%E6%A5%AD%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【產業研究】半導體</title>
+      <link>https://jeffliou85.github.io/industry-research/industry-research-semiconductor/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://jeffliou85.github.io/industry-research/industry-research-semiconductor/</guid>
+      <description>&lt;h1 id=&#34;分類不夠細&#34;&gt;分類不夠細!!!&lt;/h1&gt;&#xA;&lt;h2 id=&#34;半導體產業概述&#34;&gt;半導體產業概述&lt;/h2&gt;&#xA;&lt;p&gt;半導體產業是全球科技的核心，涵蓋 &lt;strong&gt;IC 設計、晶圓製造、封裝測試、記憶體、被動元件、PCB&lt;/strong&gt; 等完整供應鏈。隨著 &lt;strong&gt;AI、高效能運算、5G、車用電子&lt;/strong&gt; 的快速發展，半導體成為推動產業升級與數位轉型的關鍵。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>【產業研究】印刷電路板（PCB）</title>
+      <link>https://jeffliou85.github.io/industry-research/industry-research-pcb/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://jeffliou85.github.io/industry-research/industry-research-pcb/</guid>
+      <description>&lt;h2 id=&#34;pcb-產業概述&#34;&gt;PCB 產業概述&lt;/h2&gt;&#xA;&lt;p&gt;PCB（Printed Circuit Board，印刷電路板）是電子產品的基礎零組件，負責承載與連接各種電子元件。隨著 &lt;strong&gt;5G、AI、高效能運算、車用電子&lt;/strong&gt; 的快速發展，PCB 需求持續成長，台灣在全球 PCB 產業中具有重要地位。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>【產業研究】被動元件</title>
+      <link>https://jeffliou85.github.io/industry-research/industry-research-passive-component/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://jeffliou85.github.io/industry-research/industry-research-passive-component/</guid>
+      <description>&lt;h2 id=&#34;被動元件產業概述&#34;&gt;被動元件產業概述&lt;/h2&gt;&#xA;&lt;p&gt;被動元件（Passive Components）是電子電路中不可或缺的基礎零組件，主要包括 &lt;strong&gt;電阻 (Resistor)、電容 (Capacitor)、電感 (Inductor)&lt;/strong&gt; 等。與主動元件不同，被動元件不需外部驅動即可發揮功能，廣泛應用於 &lt;strong&gt;消費性電子、車用電子、通訊設備、工業控制&lt;/strong&gt; 等領域。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>【產業研究】記憶體</title>
+      <link>https://jeffliou85.github.io/industry-research/industry-research-memory/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://jeffliou85.github.io/industry-research/industry-research-memory/</guid>
+      <description>&lt;h2 id=&#34;記憶體產業概述&#34;&gt;記憶體產業概述&lt;/h2&gt;&#xA;&lt;p&gt;記憶體產業是半導體產業的重要分支，主要包含 &lt;strong&gt;DRAM&lt;/strong&gt; 與 &lt;strong&gt;Flash (NAND/NOR)&lt;/strong&gt;。隨著 AI、雲端運算、車用電子與工業控制的需求成長，記憶體成為高效能運算不可或缺的核心零組件。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
