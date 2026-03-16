@@ -15,9 +15,9 @@
     
 
     
-    <meta name="title" content="【證券研究】光罩（2338）" />
-    <meta property="og:title" content="【證券研究】光罩（2338）" />
-    <meta property="twitter:title" content="【證券研究】光罩（2338）" />
+    <meta name="title" content="【交易機會】光罩（2338）突獲訂單新聞" />
+    <meta property="og:title" content="【交易機會】光罩（2338）突獲訂單新聞" />
+    <meta property="twitter:title" content="【交易機會】光罩（2338）突獲訂單新聞" />
     
 
     
@@ -34,7 +34,7 @@
     <meta name="keyword"  content="金融研究筆記, 金融, 投資">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>【證券研究】光罩（2338） | 金融研究筆記 | 金融 | 投資</title>
+    <title>【交易機會】光罩（2338）突獲訂單新聞 | 金融研究筆記 | 金融 | 投資</title>
 
     <link rel="canonical" href="/security-research/security-research-2338/">
 
@@ -182,12 +182,12 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/%E8%AD%89%E5%88%B8%E7%A0%94%E7%A9%B6" title="證券研究">
-                            證券研究
+                        <a class="tag" href="/tags/%E4%BA%A4%E6%98%93%E6%A9%9F%E6%9C%83%E8%A8%82%E5%96%AE%E6%96%B0%E8%81%9E" title="交易機會：訂單新聞">
+                            交易機會：訂單新聞
                         </a>
                         
                     </div>
-                    <h1>【證券研究】光罩（2338）</h1>
+                    <h1>【交易機會】光罩（2338）突獲訂單新聞</h1>
                     <h2 class="subheading"></h2>
                     <span class="meta">
                         
@@ -217,32 +217,169 @@
                 post-container">
 
                 
-                <h1 id="證券研究光罩2338">證券研究：光罩（2338）</h1>
-<hr>
-<h2 id="突獲大訂單新聞">突獲大訂單新聞</h2>
-<h3 id="時間線">時間線</h3>
+                <hr>
 <ul>
 <li><strong>2026/02/23</strong>
 <ul>
-<li>經濟日報於晚間發佈<strong>多篇群創獲得SpaceX訂單的新聞</strong>。</li>
+<li><a href="https://www.knews.com.tw/news/43D6995E4CE760CE801C2491DF21E9F1"><strong>知新聞於早盤10:29發佈台灣光罩獲得高階製程新訂單新聞。</strong></a></li>
+<li><a href="https://news.cnyes.com/news/id/6349012"><strong>鉅亨網於盤中12:15發佈台灣光罩獲得高階製程新訂單新聞。</strong></a></li>
 </ul>
 </li>
 <li><strong>2026/02/24</strong>
 <ul>
-<li><strong>開盤跳空上漲5%，於10點攻上漲停，並鎖死至收盤</strong>。</li>
+<li><strong>開盤跳空上漲9%，隨即漲停並鎖死至收盤。</strong></li>
 </ul>
 </li>
 <li><strong>2026/02/25</strong>
 <ul>
-<li>持續跳空上漲並鎖漲停。</li>
+<li>持續跳空漲停鎖死。</li>
 </ul>
 </li>
 </ul>
-<h3 id="相關連結">相關連結</h3>
-<h4 id="台灣光罩中階產品接單穩定-先進封裝下半年添動能"><a href="https://money.udn.com/money/story/5612/9339614">台灣光罩：中階產品接單穩定 先進封裝下半年添動能</a></h4>
-<p><em>2026/02/23 16:00:50 中央社 記者張建中新竹23日電</em></p>
-<blockquote>
-<p>台灣光罩今天表示，中階光罩產品順利完成客戶驗證，接單穩定，先進封裝訂單能見度高，預計下半年開始貢獻營收，為營運注入成長新動能。光聚晶電入主後，資源集中關鍵製程技術，光罩本業占總營收約6成。其中，中階光罩產品順利完成客戶驗證，接單穩定，將逐步放量。</p></blockquote>
+<script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+
+<div id="chart-stock-2338" style="width: 100%;"></div>
+
+<script>
+    (function() {
+        const container = document.getElementById('chart-stock-2338');
+        
+        
+        const initialWidth = container.clientWidth;
+        const initialHeight = initialWidth / 2;
+
+        const chart = LightweightCharts.createChart(container, {
+            width: initialWidth,
+            height: initialHeight,
+            layout: {
+                background: { color: '#ffffff' },
+                textColor: '#333',
+            },
+            localization: {
+                timeFormatter: (dt) => { 
+                    return dt; 
+                },
+            },
+            grid: {
+                vertLines: { color: '#f0f0f0' },
+                horzLines: { color: '#f0f0f0' },
+            },
+            leftPriceScale: {
+                visible: true,
+                borderColor: '#cccccc',
+            },
+            rightPriceScale: {
+                visible: true,
+                borderColor: '#cccccc',
+            },
+            timeScale: {
+                borderColor: '#cccccc',
+                timeVisible: true,
+                fixLeftEdge: true,
+            },
+        });
+
+        
+        const candleSeries = chart.addSeries(LightweightCharts.CandlestickSeries, {
+            upColor: '#ef5350',
+            downColor: '#26a69a',
+            borderDownColor: '#26a69a',
+            borderUpColor: '#ef5350',
+            wickDownColor: '#26a69a',
+            wickUpColor: '#ef5350',
+            priceFormat: {
+                type: 'price',
+                precision: 2,
+                minMove: 0.01,
+            },
+        });
+
+        
+        const volumeSeries = chart.addSeries(LightweightCharts.HistogramSeries, {
+            color: '#26a69a',
+            priceFormat: {
+                type: 'volume',
+            },
+            priceScaleId: 'left', 
+        });
+
+        chart.priceScale('left').applyOptions({
+            scaleMargins: {
+                top: 0.8, 
+                bottom: 0,
+            },
+        });
+
+        
+        const rawData = 
+[
+    { "time": "2026-01-02", "open": 35.5, "high": 36.2, "low": 35.5, "close": 35.95, "volume": 663 },
+    { "time": "2026-01-05", "open": 36.15, "high": 36.75, "low": 35.15, "close": 35.45, "volume": 1376 },
+    { "time": "2026-01-06", "open": 35.55, "high": 36.75, "low": 35.55, "close": 36.55, "volume": 1175 },
+    { "time": "2026-01-07", "open": 36.7, "high": 39.35, "low": 36.55, "close": 38.95, "volume": 5418 },
+    { "time": "2026-01-08", "open": 38.35, "high": 38.45, "low": 36.8, "close": 37.15, "volume": 3245 },
+    { "time": "2026-01-09", "open": 37.15, "high": 37.2, "low": 35.55, "close": 36.95, "volume": 1461 },
+    { "time": "2026-01-12", "open": 37.05, "high": 38.4, "low": 37.05, "close": 37.65, "volume": 1422 },
+    { "time": "2026-01-13", "open": 37.8, "high": 37.8, "low": 36.5, "close": 37.7, "volume": 1196 },
+    { "time": "2026-01-14", "open": 38.05, "high": 39.4, "low": 38.05, "close": 38.8, "volume": 3135 },
+    { "time": "2026-01-15", "open": 38.8, "high": 38.8, "low": 37.9, "close": 38.7, "volume": 1283 },
+    { "time": "2026-01-16", "open": 39.0, "high": 41.0, "low": 38.7, "close": 39.95, "volume": 5127 },
+    { "time": "2026-01-19", "open": 40.4, "high": 42.35, "low": 39.7, "close": 41.7, "volume": 5698 },
+    { "time": "2026-01-20", "open": 42.2, "high": 42.25, "low": 40.8, "close": 41.55, "volume": 2638 },
+    { "time": "2026-01-21", "open": 41.05, "high": 42.3, "low": 40.7, "close": 41.9, "volume": 3279 },
+    { "time": "2026-01-22", "open": 42.5, "high": 43.6, "low": 41.9, "close": 41.9, "volume": 4812 },
+    { "time": "2026-01-23", "open": 42.2, "high": 42.3, "low": 40.1, "close": 40.1, "volume": 2835 },
+    { "time": "2026-01-26", "open": 40.25, "high": 40.7, "low": 39.45, "close": 40.15, "volume": 2168 },
+    { "time": "2026-01-27", "open": 40.7, "high": 41.9, "low": 40.2, "close": 41.85, "volume": 2941 },
+    { "time": "2026-01-28", "open": 42.0, "high": 43.0, "low": 41.9, "close": 42.4, "volume": 4123 },
+    { "time": "2026-01-29", "open": 42.5, "high": 42.5, "low": 39.65, "close": 40.0, "volume": 3006 },
+    { "time": "2026-01-30", "open": 39.95, "high": 40.05, "low": 38.55, "close": 39.0, "volume": 1947 },
+    { "time": "2026-02-02", "open": 38.45, "high": 38.45, "low": 36.6, "close": 37.1, "volume": 2030 },
+    { "time": "2026-02-03", "open": 38.0, "high": 38.6, "low": 37.1, "close": 38.45, "volume": 1160 },
+    { "time": "2026-02-04", "open": 38.45, "high": 38.65, "low": 37.65, "close": 37.75, "volume": 1072 },
+    { "time": "2026-02-05", "open": 37.25, "high": 38.45, "low": 36.9, "close": 37.0, "volume": 1054 },
+    { "time": "2026-02-06", "open": 36.9, "high": 36.9, "low": 34.9, "close": 35.5, "volume": 1614 },
+    { "time": "2026-02-09", "open": 35.5, "high": 36.5, "low": 34.55, "close": 34.75, "volume": 2607 },
+    { "time": "2026-02-10", "open": 35.3, "high": 35.3, "low": 33.8, "close": 33.95, "volume": 2212 },
+    { "time": "2026-02-11", "open": 34.35, "high": 34.35, "low": 33.45, "close": 33.65, "volume": 1378 },
+    { "time": "2026-02-23", "open": 34.2, "high": 37.0, "low": 33.8, "close": 37.0, "volume": 4098 },
+    { "time": "2026-02-24", "open": 40.55, "high": 40.7, "low": 40.45, "close": 40.7, "volume": 2490 },
+    { "time": "2026-02-25", "open": 44.75, "high": 44.75, "low": 44.75, "close": 44.75, "volume": 3511 },
+    { "time": "2026-02-26", "open": 47.8, "high": 49.2, "low": 47.8, "close": 49.2, "volume": 7171 },
+    { "time": "2026-03-02", "open": 50.2, "high": 54.1, "low": 49.5, "close": 54.1, "volume": 15269 },
+    { "time": "2026-03-03", "open": 58.2, "high": 59.4, "low": 52.5, "close": 53.9, "volume": 32170 },
+    { "time": "2026-03-04", "open": 52.2, "high": 52.2, "low": 48.55, "close": 48.65, "volume": 5033 },
+    { "time": "2026-03-05", "open": 51.8, "high": 53.5, "low": 51.0, "close": 52.7, "volume": 4096 },
+    { "time": "2026-03-06", "open": 51.7, "high": 54.4, "low": 51.0, "close": 52.8, "volume": 2578 },
+    { "time": "2026-03-09", "open": 47.55, "high": 47.55, "low": 47.55, "close": 47.55, "volume": 1463 },
+    { "time": "2026-03-10", "open": 47.55, "high": 47.55, "low": 42.8, "close": 44.4, "volume": 4697 },
+    { "time": "2026-03-11", "open": 43.0, "high": 48.8, "low": 43.0, "close": 48.8, "volume": 4213 },
+    { "time": "2026-03-12", "open": 48.8, "high": 51.3, "low": 48.8, "close": 49.5, "volume": 2685 },
+    { "time": "2026-03-13", "open": 48.0, "high": 51.2, "low": 48.0, "close": 50.0, "volume": 1738 }
+]
+;
+        
+        candleSeries.setData(rawData);
+
+        const volumeData = rawData.map(d => ({
+            time: d.time,
+            value: d.volume || 0,
+            color: d.close >= d.open ? 'rgba(239, 83, 80, 0.5)' : 'rgba(38, 166, 154, 0.5)'
+        }));
+        volumeSeries.setData(volumeData);
+
+        chart.timeScale().fitContent();
+
+        
+        window.addEventListener('resize', () => {
+            const newWidth = container.clientWidth;
+            chart.applyOptions({ 
+                width: newWidth,
+                height: newWidth / 2 
+            });
+        });
+    })();
+</script>
 
 
                 
@@ -252,7 +389,7 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/security-research/security-research-3167/" data-toggle="tooltip" data-placement="top" title="【證券研究】大量（3167）">&larr;
+                        <a href="/security-research/security-research-2338/" data-toggle="tooltip" data-placement="top" title="【證券研究】光罩（2338）">&larr;
                             Previous Post</a>
                     </li>
                     
@@ -303,9 +440,15 @@
                         
                         
                         
+                        <a href="/tags/%E4%BA%A4%E6%98%93%E6%A9%9F%E6%9C%83%E6%9C%88%E7%87%9F%E6%94%B6%E5%82%99%E8%A8%BB" title="交易機會：月營收備註">
+                            交易機會：月營收備註
+                        </a>
                         
                         
                         
+                        <a href="/tags/%E4%BA%A4%E6%98%93%E6%A9%9F%E6%9C%83%E8%A8%82%E5%96%AE%E6%96%B0%E8%81%9E" title="交易機會：訂單新聞">
+                            交易機會：訂單新聞
+                        </a>
                         
                         
                         
