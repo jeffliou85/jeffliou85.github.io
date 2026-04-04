@@ -187,7 +187,7 @@
                     <h2 class="subheading"></h2>
                     <span class="meta">
                         
-                            Monday, February 23, 2026
+                            2026/02/23, Monday
                             
                             
                             
@@ -215,7 +215,7 @@
                 
                 <ul>
 <li>
-<p><strong>2026/03/22</strong></p>
+<h4 id="20260322--行政院院長蒞臨參訪">2026/03/22 &mdash; 行政院院長蒞臨參訪</h4>
 <ul>
 <li>
 <p><a href="https://www.ey.gov.tw/Page/9277F759E41CCD91/18b0a7aa-6531-4d02-9803-e4cdd2ca28b6"><strong>行政院新聞傳播處：卓揆參訪無人機反制系統研發公司，欲發展本土軍工產業，盼通過政院版國防特別條例。</strong></a></p>
@@ -242,6 +242,142 @@
 </ul>
 </li>
 </ul>
+<script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+
+<div id="chart-stock-2231" style="width: 100%;"></div>
+
+<script>
+    (function() {
+        const container = document.getElementById('chart-stock-2231');
+
+        
+        const initialWidth = container.clientWidth;
+        const initialHeight = initialWidth / 2;
+
+        const chart = LightweightCharts.createChart(container, {
+            width: initialWidth,
+            height: initialHeight,
+            layout: {
+                background: { color: '#ffffff' },
+                textColor: '#333',
+            },
+            localization: {
+                timeFormatter: (dt) => { 
+                    return dt; 
+                },
+            },
+            grid: {
+                vertLines: { color: '#f0f0f0' },
+                horzLines: { color: '#f0f0f0' },
+            },
+            leftPriceScale: {
+                visible: true,
+                borderColor: '#cccccc',
+            },
+            rightPriceScale: {
+                visible: true,
+                borderColor: '#cccccc',
+            },
+            timeScale: {
+                borderColor: '#cccccc',
+                timeVisible: true,
+                fixLeftEdge: true,
+            },
+        });
+
+        
+        const candleSeries = chart.addSeries(LightweightCharts.CandlestickSeries, {
+            upColor: '#ef5350',
+            downColor: '#26a69a',
+            borderDownColor: '#26a69a',
+            borderUpColor: '#ef5350',
+            wickDownColor: '#26a69a',
+            wickUpColor: '#ef5350',
+            priceFormat: {
+                type: 'price',
+                precision: 2,
+                minMove: 0.01,
+            },
+        });
+
+        
+        const volumeSeries = chart.addSeries(LightweightCharts.HistogramSeries, {
+            color: '#26a69a',
+            priceFormat: {
+                type: 'volume',
+            },
+            priceScaleId: 'left', 
+        });
+
+        chart.priceScale('left').applyOptions({
+            scaleMargins: {
+                top: 0.8, 
+                bottom: 0,
+            },
+        });
+
+        
+        const rawData = 
+[
+    { "time": "2026-02-02", "open": 92.4, "high": 92.6, "low": 90.2, "close": 90.8, "volume": 303 },
+    { "time": "2026-02-03", "open": 90.8, "high": 91.2, "low": 88.0, "close": 88.4, "volume": 1159 },
+    { "time": "2026-02-04", "open": 90.5, "high": 92.1, "low": 89.4, "close": 90.3, "volume": 421 },
+    { "time": "2026-02-05", "open": 90.8, "high": 91.6, "low": 89.2, "close": 90.7, "volume": 327 },
+    { "time": "2026-02-06", "open": 91.1, "high": 91.1, "low": 87.9, "close": 89.9, "volume": 218 },
+    { "time": "2026-02-09", "open": 91.9, "high": 92.0, "low": 89.4, "close": 89.4, "volume": 102 },
+    { "time": "2026-02-10", "open": 90.7, "high": 91.2, "low": 89.6, "close": 90.2, "volume": 179 },
+    { "time": "2026-02-11", "open": 90.2, "high": 91.2, "low": 89.3, "close": 90.8, "volume": 180 },
+    { "time": "2026-02-23", "open": 92.5, "high": 96.3, "low": 92.5, "close": 93.9, "volume": 1017 },
+    { "time": "2026-02-24", "open": 93.9, "high": 95.6, "low": 93.9, "close": 94.9, "volume": 347 },
+    { "time": "2026-02-25", "open": 95.8, "high": 98.7, "low": 95.0, "close": 98.5, "volume": 655 },
+    { "time": "2026-02-26", "open": 98.7, "high": 98.7, "low": 95.1, "close": 95.4, "volume": 395 },
+    { "time": "2026-03-02", "open": 91.5, "high": 94.2, "low": 91.5, "close": 92.4, "volume": 362 },
+    { "time": "2026-03-03", "open": 92.4, "high": 93.2, "low": 89.3, "close": 89.6, "volume": 440 },
+    { "time": "2026-03-04", "open": 90.0, "high": 91.0, "low": 86.0, "close": 86.8, "volume": 539 },
+    { "time": "2026-03-05", "open": 88.4, "high": 91.9, "low": 88.4, "close": 89.1, "volume": 345 },
+    { "time": "2026-03-06", "open": 89.2, "high": 89.5, "low": 88.2, "close": 89.0, "volume": 156 },
+    { "time": "2026-03-09", "open": 84.5, "high": 84.5, "low": 80.7, "close": 81.0, "volume": 541 },
+    { "time": "2026-03-10", "open": 82.8, "high": 86.0, "low": 82.6, "close": 85.5, "volume": 652 },
+    { "time": "2026-03-11", "open": 87.6, "high": 87.6, "low": 83.1, "close": 83.7, "volume": 552 },
+    { "time": "2026-03-12", "open": 82.4, "high": 83.6, "low": 82.3, "close": 82.3, "volume": 221 },
+    { "time": "2026-03-13", "open": 80.6, "high": 82.9, "low": 80.6, "close": 82.1, "volume": 255 },
+    { "time": "2026-03-16", "open": 82.4, "high": 83.2, "low": 80.4, "close": 80.8, "volume": 447 },
+    { "time": "2026-03-17", "open": 81.3, "high": 82.6, "low": 81.0, "close": 81.2, "volume": 351 },
+    { "time": "2026-03-18", "open": 82.6, "high": 83.4, "low": 80.6, "close": 83.0, "volume": 673 },
+    { "time": "2026-03-19", "open": 82.4, "high": 82.4, "low": 80.7, "close": 80.8, "volume": 313 },
+    { "time": "2026-03-20", "open": 81.0, "high": 82.7, "low": 80.7, "close": 82.2, "volume": 274 },
+    { "time": "2026-03-23", "open": 88.0, "high": 90.4, "low": 88.0, "close": 90.4, "volume": 992 },
+    { "time": "2026-03-24", "open": 99.4, "high": 99.4, "low": 99.4, "close": 99.4, "volume": 632 },
+    { "time": "2026-03-25", "open": 108.0, "high": 108.5, "low": 101.0, "close": 104.0, "volume": 3321 },
+    { "time": "2026-03-26", "open": 107.0, "high": 114.0, "low": 103.0, "close": 114.0, "volume": 3725 },
+    { "time": "2026-03-27", "open": 112.5, "high": 125.0, "low": 112.5, "close": 125.0, "volume": 6116 },
+    { "time": "2026-03-30", "open": 125.5, "high": 137.5, "low": 125.5, "close": 137.5, "volume": 6351 },
+    { "time": "2026-03-31", "open": 137.0, "high": 137.0, "low": 124.0, "close": 124.0, "volume": 1924 },
+    { "time": "2026-04-01", "open": 130.0, "high": 130.0, "low": 117.5, "close": 121.0, "volume": 1614 }
+]
+;
+        
+        candleSeries.setData(rawData);
+
+        const volumeData = rawData.map(d => ({
+            time: d.time,
+            value: d.volume || 0,
+            color: d.close >= d.open ? 'rgba(239, 83, 80, 0.5)' : 'rgba(38, 166, 154, 0.5)'
+        }));
+        volumeSeries.setData(volumeData);
+
+        chart.timeScale().fitContent();
+
+        
+        window.addEventListener('resize', () => {
+            const newWidth = container.clientWidth;
+            chart.applyOptions({ 
+                width: newWidth,
+                height: newWidth / 2 
+            });
+        });
+    })();
+</script>
 
 
                 
@@ -305,6 +441,10 @@
                         
                         
                         
+                        <a href="/tags/%E4%BA%A4%E6%98%93%E6%A9%9F%E6%9C%83%E5%90%88%E4%BD%9C%E6%96%B0%E8%81%9E" title="交易機會：合作新聞">
+                            交易機會：合作新聞
+                        </a>
+                        
                         
                         
                         <a href="/tags/%E4%BA%A4%E6%98%93%E6%A9%9F%E6%9C%83%E6%94%BF%E7%AD%96%E5%88%A9%E5%A4%9A%E6%96%B0%E8%81%9E" title="交易機會：政策利多新聞">
@@ -330,6 +470,8 @@
                         <a href="/tags/%E4%BA%A4%E6%98%93%E6%A9%9F%E6%9C%83%E6%B3%95%E8%AA%AA%E6%9C%83" title="交易機會：法說會">
                             交易機會：法說會
                         </a>
+                        
+                        
                         
                         
                         
