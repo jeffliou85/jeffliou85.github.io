@@ -15,9 +15,9 @@
     
 
     
-    <meta name="title" content="【交易機會】可成（2474）傳出接AI訂單6月放量新聞" />
-    <meta property="og:title" content="【交易機會】可成（2474）傳出接AI訂單6月放量新聞" />
-    <meta property="twitter:title" content="【交易機會】可成（2474）傳出接AI訂單6月放量新聞" />
+    <meta name="title" content="【交易機會】麗清（3346）業績倍增新聞" />
+    <meta property="og:title" content="【交易機會】麗清（3346）業績倍增新聞" />
+    <meta property="twitter:title" content="【交易機會】麗清（3346）業績倍增新聞" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="金融研究筆記, 金融, 投資">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>【交易機會】可成（2474）傳出接AI訂單6月放量新聞 | 金融研究筆記 | 金融 | 投資</title>
+    <title>【交易機會】麗清（3346）業績倍增新聞 | 金融研究筆記 | 金融 | 投資</title>
 
-    <link rel="canonical" href="/trading-opportunity/trading-opportunity-20260417-2474/">
+    <link rel="canonical" href="/trading-opportunity/trading-opportunity-20260527-3346/">
 
     
     
@@ -174,16 +174,16 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/%E4%BA%A4%E6%98%93%E6%A9%9F%E6%9C%83%E8%A8%82%E5%96%AE%E6%96%B0%E8%81%9E" title="交易機會：訂單新聞">
-                            交易機會：訂單新聞
+                        <a class="tag" href="/tags/%E4%BA%A4%E6%98%93%E6%A9%9F%E6%9C%83%E6%A5%AD%E7%B8%BE%E5%88%A9%E5%A4%9A%E6%96%B0%E8%81%9E" title="交易機會：業績利多新聞">
+                            交易機會：業績利多新聞
                         </a>
                         
                     </div>
-                    <h1>【交易機會】可成（2474）傳出接AI訂單6月放量新聞</h1>
+                    <h1>【交易機會】麗清（3346）業績倍增新聞</h1>
                     <h2 class="subheading"></h2>
                     <span class="meta">
                         
-                            2026/04/17, Friday
+                            2026/05/27, Wednesday
                             
                             
                             
@@ -211,15 +211,175 @@
                 
                 <ul>
 <li>
-<h4 id="20260417--可成傳接ai訂單6月放量">2026/04/17 &mdash; 可成傳接AI訂單6月放量</h4>
+<h4 id="20260527--切入機器人供應鏈">2026/05/27 &mdash; 切入機器人供應鏈</h4>
 <ul>
-<li><a href="https://money.udn.com/money/story/5612/9447367"><strong>經濟日報：可成連10買庫藏股回購已逾3成 傳接 AI 訂單6月放量</strong></a>
+<li><a href="https://www.ctee.com.tw/news/20260527700681-430503"><strong>工商時報：麗清營運雙響炮！切入機器人供應鏈 墨西哥新廠獲北美車款訂單</strong></a>
 <blockquote>
-<p>2026/04/17 09:46:15 經濟日報 記者王郁倫/台北即時報導 <br> 機殼大廠可成（2474）轉型跨產業金屬科技平台，鎖定高階醫材、半導體設備及航太等高價值產業，轉型效益今年預期將逐季展現，法人圈傳出，可成打入國際最大AI晶片公司供應鏈，交貨AI機構件及外觀件，6月放量，第2季度挑戰10%以上業績貢獻。</p></blockquote>
+<p>2026/05/27 09:23 陳慜蔚 <br> 麗清科技（3346）27日宣布集團營運迎來重大突破，憑藉多年深耕汽車電子領域所累積之車規級研發、製造與品質管理能力，集團由車用領域無縫接軌機器人領域，旗下開發應用於人形機器人與四足機器人（機器狗）之PCBA 核心關節控制模組，成功打入敏實集團智能機器人及機器狗供應鏈，預計將於今年第三季開始陸續小量出貨，為集團由車用電子延伸至「具身智能」（Embodied Intelligence）機器人市場邁出關鍵一步。</p></blockquote>
 </li>
 </ul>
 </li>
 </ul>
+<script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+
+<div id="chart-stock-3346" style="width: 100%;"></div>
+
+<script>
+    (function() {
+        const container = document.getElementById('chart-stock-3346');
+
+        
+        const initialWidth = container.clientWidth;
+        const initialHeight = initialWidth / 2;
+
+        const chart = LightweightCharts.createChart(container, {
+            width: initialWidth,
+            height: initialHeight,
+            layout: {
+                background: { color: '#ffffff' },
+                textColor: '#333',
+            },
+            localization: {
+                timeFormatter: (dt) => { 
+                    return dt; 
+                },
+            },
+            grid: {
+                vertLines: { color: '#f0f0f0' },
+                horzLines: { color: '#f0f0f0' },
+            },
+            leftPriceScale: {
+                visible: true,
+                borderColor: '#cccccc',
+            },
+            rightPriceScale: {
+                visible: true,
+                borderColor: '#cccccc',
+            },
+            timeScale: {
+                borderColor: '#cccccc',
+                timeVisible: true,
+                fixLeftEdge: true,
+            },
+        });
+
+        
+        const candleSeries = chart.addSeries(LightweightCharts.CandlestickSeries, {
+            upColor: '#ef5350',
+            downColor: '#26a69a',
+            borderDownColor: '#26a69a',
+            borderUpColor: '#ef5350',
+            wickDownColor: '#26a69a',
+            wickUpColor: '#ef5350',
+            priceFormat: {
+                type: 'price',
+                precision: 2,
+                minMove: 0.01,
+            },
+        });
+
+        
+        const volumeSeries = chart.addSeries(LightweightCharts.HistogramSeries, {
+            color: '#26a69a',
+            priceFormat: {
+                type: 'volume',
+            },
+            priceScaleId: 'left', 
+        });
+
+        chart.priceScale('left').applyOptions({
+            scaleMargins: {
+                top: 0.8, 
+                bottom: 0,
+            },
+        });
+
+        
+        const rawData = 
+[
+    { "time": "2026-04-01", "open": 18.4, "high": 18.45, "low": 18.15, "close": 18.3, "volume": 258 },
+    { "time": "2026-04-02", "open": 18.55, "high": 18.65, "low": 18.1, "close": 18.2, "volume": 138 },
+    { "time": "2026-04-07", "open": 18.45, "high": 18.45, "low": 18.05, "close": 18.1, "volume": 144 },
+    { "time": "2026-04-08", "open": 18.3, "high": 18.4, "low": 18.1, "close": 18.2, "volume": 419 },
+    { "time": "2026-04-09", "open": 18.2, "high": 18.25, "low": 18.0, "close": 18.1, "volume": 361 },
+    { "time": "2026-04-10", "open": 18.25, "high": 18.25, "low": 17.8, "close": 17.9, "volume": 431 },
+    { "time": "2026-04-13", "open": 17.9, "high": 18.05, "low": 17.8, "close": 18.0, "volume": 269 },
+    { "time": "2026-04-14", "open": 18.0, "high": 18.2, "low": 18.0, "close": 18.05, "volume": 467 },
+    { "time": "2026-04-15", "open": 18.2, "high": 18.55, "low": 18.1, "close": 18.2, "volume": 370 },
+    { "time": "2026-04-16", "open": 18.2, "high": 18.4, "low": 18.15, "close": 18.4, "volume": 330 },
+    { "time": "2026-04-17", "open": 18.4, "high": 18.45, "low": 18.3, "close": 18.45, "volume": 275 },
+    { "time": "2026-04-20", "open": 18.5, "high": 18.65, "low": 18.2, "close": 18.25, "volume": 454 },
+    { "time": "2026-04-21", "open": 18.4, "high": 18.55, "low": 18.15, "close": 18.55, "volume": 402 },
+    { "time": "2026-04-22", "open": 18.55, "high": 18.6, "low": 18.25, "close": 18.35, "volume": 382 },
+    { "time": "2026-04-23", "open": 18.4, "high": 18.5, "low": 17.8, "close": 18.15, "volume": 709 },
+    { "time": "2026-04-24", "open": 18.3, "high": 18.3, "low": 17.75, "close": 17.8, "volume": 424 },
+    { "time": "2026-04-27", "open": 17.8, "high": 17.8, "low": 17.15, "close": 17.25, "volume": 717 },
+    { "time": "2026-04-28", "open": 17.25, "high": 17.7, "low": 17.15, "close": 17.55, "volume": 345 },
+    { "time": "2026-04-29", "open": 17.65, "high": 17.65, "low": 17.2, "close": 17.35, "volume": 238 },
+    { "time": "2026-04-30", "open": 17.35, "high": 17.45, "low": 17.1, "close": 17.15, "volume": 220 },
+    { "time": "2026-05-04", "open": 17.25, "high": 17.35, "low": 17.0, "close": 17.05, "volume": 349 },
+    { "time": "2026-05-05", "open": 17.05, "high": 17.35, "low": 17.0, "close": 17.15, "volume": 294 },
+    { "time": "2026-05-06", "open": 17.25, "high": 17.45, "low": 16.75, "close": 17.0, "volume": 666 },
+    { "time": "2026-05-07", "open": 17.05, "high": 17.2, "low": 16.8, "close": 17.2, "volume": 586 },
+    { "time": "2026-05-08", "open": 17.1, "high": 18.3, "low": 17.1, "close": 17.45, "volume": 981 },
+    { "time": "2026-05-11", "open": 17.1, "high": 17.1, "low": 16.6, "close": 16.75, "volume": 964 },
+    { "time": "2026-05-12", "open": 16.85, "high": 17.0, "low": 16.4, "close": 16.55, "volume": 598 },
+    { "time": "2026-05-13", "open": 16.5, "high": 16.5, "low": 15.95, "close": 16.05, "volume": 848 },
+    { "time": "2026-05-14", "open": 16.05, "high": 16.6, "low": 15.8, "close": 15.8, "volume": 622 },
+    { "time": "2026-05-15", "open": 16.0, "high": 16.1, "low": 15.5, "close": 15.6, "volume": 438 },
+    { "time": "2026-05-18", "open": 15.65, "high": 15.65, "low": 15.2, "close": 15.3, "volume": 462 },
+    { "time": "2026-05-19", "open": 15.55, "high": 16.25, "low": 15.55, "close": 15.7, "volume": 470 },
+    { "time": "2026-05-20", "open": 16.2, "high": 16.2, "low": 15.7, "close": 16.05, "volume": 266 },
+    { "time": "2026-05-21", "open": 16.3, "high": 16.3, "low": 15.95, "close": 16.15, "volume": 340 },
+    { "time": "2026-05-22", "open": 16.35, "high": 16.45, "low": 16.15, "close": 16.35, "volume": 438 },
+    { "time": "2026-05-25", "open": 16.35, "high": 16.4, "low": 15.75, "close": 16.0, "volume": 611 },
+    { "time": "2026-05-26", "open": 16.05, "high": 16.3, "low": 15.8, "close": 16.15, "volume": 376 },
+    { "time": "2026-05-27", "open": 16.25, "high": 17.75, "low": 16.1, "close": 17.75, "volume": 1317 },
+    { "time": "2026-05-28", "open": 19.5, "high": 19.5, "low": 19.5, "close": 19.5, "volume": 708 },
+    { "time": "2026-05-29", "open": 21.45, "high": 21.45, "low": 21.45, "close": 21.45, "volume": 924 },
+    { "time": "2026-06-01", "open": 23.55, "high": 23.55, "low": 23.55, "close": 23.55, "volume": 1474 },
+    { "time": "2026-06-02", "open": 24.45, "high": 24.45, "low": 21.8, "close": 23.0, "volume": 9925 },
+    { "time": "2026-06-03", "open": 22.7, "high": 23.45, "low": 22.0, "close": 23.25, "volume": 4014 },
+    { "time": "2026-06-04", "open": 25.0, "high": 25.55, "low": 24.35, "close": 25.55, "volume": 4170 },
+    { "time": "2026-06-05", "open": 26.0, "high": 27.0, "low": 25.75, "close": 26.7, "volume": 2783 },
+    { "time": "2026-06-08", "open": 24.05, "high": 25.6, "low": 24.05, "close": 25.0, "volume": 1571 },
+    { "time": "2026-06-09", "open": 25.5, "high": 25.9, "low": 24.4, "close": 24.8, "volume": 978 },
+    { "time": "2026-06-10", "open": 25.0, "high": 25.5, "low": 24.3, "close": 24.3, "volume": 843 },
+    { "time": "2026-06-11", "open": 24.0, "high": 24.0, "low": 22.5, "close": 22.95, "volume": 709 },
+    { "time": "2026-06-12", "open": 24.0, "high": 24.0, "low": 23.45, "close": 23.6, "volume": 412 },
+    { "time": "2026-06-15", "open": 24.55, "high": 25.1, "low": 24.05, "close": 25.1, "volume": 642 },
+    { "time": "2026-06-16", "open": 25.45, "high": 25.45, "low": 24.5, "close": 24.75, "volume": 462 },
+    { "time": "2026-06-17", "open": 24.5, "high": 25.1, "low": 24.2, "close": 24.5, "volume": 598 },
+    { "time": "2026-06-18", "open": 24.6, "high": 25.05, "low": 23.5, "close": 23.7, "volume": 1711 },
+    { "time": "2026-06-22", "open": 23.75, "high": 25.5, "low": 23.7, "close": 25.0, "volume": 1851 },
+    { "time": "2026-06-23", "open": 25.15, "high": 25.15, "low": 23.9, "close": 24.6, "volume": 1383 },
+    { "time": "2026-06-24", "open": 24.3, "high": 25.45, "low": 24.1, "close": 25.05, "volume": 1369 },
+    { "time": "2026-06-25", "open": 25.6, "high": 25.8, "low": 24.55, "close": 24.55, "volume": 1422 },
+    { "time": "2026-06-26", "open": 24.6, "high": 24.6, "low": 23.7, "close": 23.9, "volume": 1297 }
+]
+;
+        
+        candleSeries.setData(rawData);
+
+        const volumeData = rawData.map(d => ({
+            time: d.time,
+            value: d.volume || 0,
+            color: d.close >= d.open ? 'rgba(239, 83, 80, 0.5)' : 'rgba(38, 166, 154, 0.5)'
+        }));
+        volumeSeries.setData(volumeData);
+
+        chart.timeScale().fitContent();
+
+        
+        window.addEventListener('resize', () => {
+            const newWidth = container.clientWidth;
+            chart.applyOptions({ 
+                width: newWidth,
+                height: newWidth / 2 
+            });
+        });
+    })();
+</script>
 
 
                 
@@ -233,6 +393,11 @@
                             Previous Post</a>
                     </li>
                     
+                    
+                    <li class="next">
+                        <a href="/trading-opportunity/trading-opportunity-20260611-5227/" data-toggle="tooltip" data-placement="top" title="【交易機會】立凱-KY（5227）尾牙透露業績倍增新聞">Next
+                            Post &rarr;</a>
+                    </li>
                     
                 </ul>
                 
@@ -303,6 +468,10 @@
                         </a>
                         
                         
+                        
+                        <a href="/tags/%E4%BA%A4%E6%98%93%E6%A9%9F%E6%9C%83%E6%A5%AD%E7%B8%BE%E5%88%A9%E5%A4%9A%E6%96%B0%E8%81%9E" title="交易機會：業績利多新聞">
+                            交易機會：業績利多新聞
+                        </a>
                         
                         
                         
