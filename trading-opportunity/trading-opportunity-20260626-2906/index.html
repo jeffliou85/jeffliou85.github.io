@@ -220,6 +220,136 @@
 </ul>
 </li>
 </ul>
+<script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+
+<div id="chart-stock-2906" style="width: 100%;"></div>
+
+<script>
+    (function() {
+        const container = document.getElementById('chart-stock-2906');
+
+        
+        const initialWidth = container.clientWidth;
+        const initialHeight = initialWidth / 2;
+
+        const chart = LightweightCharts.createChart(container, {
+            width: initialWidth,
+            height: initialHeight,
+            layout: {
+                background: { color: '#ffffff' },
+                textColor: '#333',
+            },
+            localization: {
+                timeFormatter: (dt) => { 
+                    return dt; 
+                },
+            },
+            grid: {
+                vertLines: { color: '#f0f0f0' },
+                horzLines: { color: '#f0f0f0' },
+            },
+            leftPriceScale: {
+                visible: true,
+                borderColor: '#cccccc',
+            },
+            rightPriceScale: {
+                visible: true,
+                borderColor: '#cccccc',
+            },
+            timeScale: {
+                borderColor: '#cccccc',
+                timeVisible: true,
+                fixLeftEdge: true,
+            },
+        });
+
+        
+        const candleSeries = chart.addSeries(LightweightCharts.CandlestickSeries, {
+            upColor: '#ef5350',
+            downColor: '#26a69a',
+            borderDownColor: '#26a69a',
+            borderUpColor: '#ef5350',
+            wickDownColor: '#26a69a',
+            wickUpColor: '#ef5350',
+            priceFormat: {
+                type: 'price',
+                precision: 2,
+                minMove: 0.01,
+            },
+        });
+
+        
+        const volumeSeries = chart.addSeries(LightweightCharts.HistogramSeries, {
+            color: '#26a69a',
+            priceFormat: {
+                type: 'volume',
+            },
+            priceScaleId: 'left', 
+        });
+
+        chart.priceScale('left').applyOptions({
+            scaleMargins: {
+                top: 0.8, 
+                bottom: 0,
+            },
+        });
+
+        
+        const rawData = 
+[
+    { "time": "2026-06-01", "open": 12.4, "high": 12.6, "low": 12.3, "close": 12.55, "volume": 261 },
+    { "time": "2026-06-02", "open": 12.5, "high": 12.6, "low": 12.45, "close": 12.5, "volume": 313 },
+    { "time": "2026-06-03", "open": 12.55, "high": 12.7, "low": 12.45, "close": 12.65, "volume": 287 },
+    { "time": "2026-06-04", "open": 12.7, "high": 12.75, "low": 12.65, "close": 12.7, "volume": 232 },
+    { "time": "2026-06-05", "open": 12.75, "high": 12.9, "low": 12.6, "close": 12.7, "volume": 225 },
+    { "time": "2026-06-08", "open": 12.4, "high": 12.85, "low": 12.4, "close": 12.7, "volume": 97 },
+    { "time": "2026-06-09", "open": 12.7, "high": 12.8, "low": 12.65, "close": 12.65, "volume": 148 },
+    { "time": "2026-06-10", "open": 12.65, "high": 12.7, "low": 12.55, "close": 12.7, "volume": 96 },
+    { "time": "2026-06-11", "open": 12.7, "high": 12.8, "low": 12.5, "close": 12.6, "volume": 93 },
+    { "time": "2026-06-12", "open": 12.8, "high": 12.95, "low": 12.7, "close": 12.9, "volume": 235 },
+    { "time": "2026-06-15", "open": 12.9, "high": 13.25, "low": 12.9, "close": 13.0, "volume": 198 },
+    { "time": "2026-06-16", "open": 13.15, "high": 13.15, "low": 12.9, "close": 12.95, "volume": 137 },
+    { "time": "2026-06-17", "open": 13.0, "high": 13.05, "low": 12.85, "close": 12.9, "volume": 132 },
+    { "time": "2026-06-18", "open": 13.0, "high": 13.1, "low": 12.9, "close": 12.9, "volume": 234 },
+    { "time": "2026-06-22", "open": 13.0, "high": 13.0, "low": 12.9, "close": 12.95, "volume": 199 },
+    { "time": "2026-06-23", "open": 12.95, "high": 12.95, "low": 12.85, "close": 12.9, "volume": 172 },
+    { "time": "2026-06-24", "open": 12.8, "high": 12.95, "low": 12.7, "close": 12.95, "volume": 168 },
+    { "time": "2026-06-25", "open": 12.85, "high": 12.95, "low": 12.75, "close": 12.95, "volume": 132 },
+    { "time": "2026-06-26", "open": 13.6, "high": 14.2, "low": 13.3, "close": 14.2, "volume": 2116 },
+    { "time": "2026-06-29", "open": 14.95, "high": 15.6, "low": 14.8, "close": 15.6, "volume": 5362 },
+    { "time": "2026-06-30", "open": 15.95, "high": 16.1, "low": 14.55, "close": 14.55, "volume": 5818 },
+    { "time": "2026-07-01", "open": 14.6, "high": 14.85, "low": 14.0, "close": 14.1, "volume": 3367 },
+    { "time": "2026-07-02", "open": 14.1, "high": 14.35, "low": 14.0, "close": 14.3, "volume": 656 },
+    { "time": "2026-07-03", "open": 14.3, "high": 15.0, "low": 14.3, "close": 14.5, "volume": 1711 },
+    { "time": "2026-07-06", "open": 14.5, "high": 14.55, "low": 14.15, "close": 14.25, "volume": 790 },
+    { "time": "2026-07-07", "open": 14.45, "high": 14.45, "low": 14.05, "close": 14.2, "volume": 780 },
+    { "time": "2026-07-08", "open": 14.2, "high": 14.35, "low": 13.75, "close": 14.0, "volume": 662 },
+    { "time": "2026-07-09", "open": 14.1, "high": 14.1, "low": 13.9, "close": 14.0, "volume": 299 },
+    { "time": "2026-07-13", "open": 14.0, "high": 14.1, "low": 13.85, "close": 13.9, "volume": 351 }
+]
+;
+        
+        candleSeries.setData(rawData);
+
+        const volumeData = rawData.map(d => ({
+            time: d.time,
+            value: d.volume || 0,
+            color: d.close >= d.open ? 'rgba(239, 83, 80, 0.5)' : 'rgba(38, 166, 154, 0.5)'
+        }));
+        volumeSeries.setData(volumeData);
+
+        chart.timeScale().fitContent();
+
+        
+        window.addEventListener('resize', () => {
+            const newWidth = container.clientWidth;
+            chart.applyOptions({ 
+                width: newWidth,
+                height: newWidth / 2 
+            });
+        });
+    })();
+</script>
 
 
                 
@@ -229,10 +359,15 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/trading-opportunity/trading-opportunity-20260611-5227/" data-toggle="tooltip" data-placement="top" title="【交易機會】立凱-KY（5227）尾牙透露業績倍增新聞">&larr;
+                        <a href="/trading-opportunity/trading-opportunity-20260616-1905/" data-toggle="tooltip" data-placement="top" title="【交易機會】華紙（1905）股東會利多">&larr;
                             Previous Post</a>
                     </li>
                     
+                    
+                    <li class="next">
+                        <a href="/trading-opportunity/trading-opportunity-20260630-6617/" data-toggle="tooltip" data-placement="top" title="【交易機會】共信（6617）產品獲歐洲專利新聞">Next
+                            Post &rarr;</a>
+                    </li>
                     
                 </ul>
                 
@@ -324,6 +459,8 @@
                         
                         
                         
+                        
+                        
                         <a href="/tags/%E4%BA%A4%E6%98%93%E6%A9%9F%E6%9C%83%E8%A8%82%E5%96%AE%E6%96%B0%E8%81%9E" title="交易機會：訂單新聞">
                             交易機會：訂單新聞
                         </a>
@@ -331,6 +468,12 @@
                         
                         
                         
+                        
+                        
+                        
+                        <a href="/tags/%E4%BA%A4%E6%98%93%E6%A9%9F%E6%9C%83%E9%87%8D%E8%A8%8A%E5%85%AC%E5%91%8A" title="交易機會：重訊公告">
+                            交易機會：重訊公告
+                        </a>
                         
                         
                         
